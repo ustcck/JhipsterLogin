@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ustcck",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "JhipsterLogin",
+    "packageName": "com.ustcck",
+    "packageFolder": "com/ustcck",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjgxYmJkYTBjOTVkMzNlZDYxOTYyYWZlNDllNGJkN2E2OGQ1MDUzOGNjOTMyNGFiYWYxMDQ5MDkzYjU1OWM5ZTQ4MDg0ZDRjMzRmODUxMWE5MjY3Zjg3OTNmY2U3NjE3MjBmZGUyOTM3NjUzMDlhY2YyYmQxODgzMmFiYWZiY2Y=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn", "en"],
+    "blueprints": []
+  }
+}
