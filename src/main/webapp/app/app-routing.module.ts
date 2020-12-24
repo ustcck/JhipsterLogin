@@ -13,6 +13,11 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
     RouterModule.forRoot(
       [
         {
+          path: '',
+          redirectTo: 'login',
+          pathMatch: 'full'
+        },
+        {
           path: 'admin',
           data: {
             authorities: ['ROLE_ADMIN']
@@ -23,6 +28,14 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
         {
           path: 'account',
           loadChildren: () => import('./account/account.module').then(m => m.JhipsterLoginAccountModule)
+        },
+        {
+          path: 'painel',
+          loadChildren: () => import('./home/home.module').then(m => m.JhipsterLoginHomeModule)
+        },
+        {
+          path: 'login',
+          loadChildren: () => import('./login/login.module').then(m => m.JhipsterLoginLoginModule)
         },
         ...LAYOUT_ROUTES
       ],
